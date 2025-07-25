@@ -14,6 +14,7 @@
 1. OpenSearch 2.19.0 버전이 필요합니다.
 2. Python 3.8 이상 버전이 필요합니다.
 
+
 ## 주요 클래스
 
 ### KoreanMorphemeAnalyzer
@@ -28,3 +29,7 @@
 - `extract_words_from_index()`: 소스 인덱스에서 문장 추출 및 형태소 분석
 - `index_words_to_auto_search()`: 단어들을 auto-search 인덱스에 색인
 - `process_words_from_source_index()`: 전체 프로세스 실행
+
+## 필요한 패키지 설치:
+```bash
+pip install -r requirements.txt
